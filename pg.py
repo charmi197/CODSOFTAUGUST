@@ -13,7 +13,7 @@ def generate_password(length):
 # Ask the user for the desired password length
 while True:
     try:
-        length = int(input("Enter the desired password length: "))
+        length = int(input("Enter the length of your desired password: "))
         if length <= 0:
             print("Please enter a positive integer.")
         else:
