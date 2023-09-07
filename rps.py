@@ -2,7 +2,7 @@ import random
 
 user_action = input("Enter your coice (rock, paper, scissors): ")
 possible_actions = ["rock", "paper", "scissors"]
-computer_action = random.choice(possible_actions)
+computer_act = random.choice(possible_actions)
 print(f"\nYou chose {user_act}, computer chose {computer_act}.\n")
 
 if user_act == computer_act:
